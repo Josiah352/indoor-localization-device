@@ -1,0 +1,14 @@
+TIRE Technical Difficulties Literature Review: Gyroscope Drift
+https://www.researchgate.net/publication/333412906_Accelerometer-Based_Gyroscope_Drift_Compensation_Approach_in_a_Dual-Axial_Stabilization_Platform
+
+
+In the paper, the authors address the persistent problem of gyroscope drift in a dual-axial stabilization platform, which operates along the pitch and heading axes to maintain a stable line of sight for mounted equipment.
+They note that while MEMS gyroscopes are valuable for measuring angular velocity, their outputs can be suspectable to small but continuous bias errors. When these signals are put together to calculate angular displacement over time, the small biases add up and cause the angle estimation to drift significantly. 
+To counter this, the authors developed an accelerometer-based compensation approach that corrects the drift of the gyroscope during steady-state conditions from time to time.  
+Their method relies on the gyroscope’s and accelerometer sensors’ activity. 
+While the gyroscope provides a short solution of angular rate information, it suffers from long-term drift. 
+The accelerometer, on the other hand, can sense the direction of gravity and therefore estimate the platform’s tilt or pitch angle when the system is not dealing with significant linear acceleration. 
+The authors as well use this property to get a reliable reference angle from the accelerometer whenever the platform is in a near-steady state. This happens when the only measurable acceleration is gravitational
+They then compare this accelerometer-derived angle to the angle obtained by putting together the gyroscope data.
+The difference between the two represents the accumulated drift error, which then helps correct the gyroscope’s calculated angle. 
+
