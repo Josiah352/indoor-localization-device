@@ -45,6 +45,9 @@
 | - | - | - | - |
 | | | | |
 
+| Created revised individual block diagram for system specification| 11/3| | Tuesday | 
+| Looked at articles and wrote parts of literature review for TIRE technical difficulties | 11/9 |  | Sunday | 
+
 ### Challenges / Issues:
 *Problems encountered and support needed!*
 - System Specifications requires System Analysis yet the system remains unfinished and unable to be tested according to requirement specifications and system specifications indicated requirements.
