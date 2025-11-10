@@ -44,6 +44,8 @@
 | Contribution | Date | Day of Week | Repository Commit ID |
 | - | - | - | - |
 | | | | |
+| Created the individual block diagram for system specification| 11/3 | Tuesday | 
+| Looked at articles and wrote parts of literature review for technical difficulties possibilities for TIRE project | 11/9 | Sunday |
 
 ### Challenges / Issues:
 *Problems encountered and support needed!*
